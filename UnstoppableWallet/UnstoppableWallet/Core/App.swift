@@ -7,7 +7,7 @@ import CoinKit
 
 class App {
     static let shared = App()
-
+                // testing.....
     let keychainKit: IKeychainKit
     let pinKit: IPinKit
 
