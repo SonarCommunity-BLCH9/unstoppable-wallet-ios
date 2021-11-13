@@ -1562,7 +1562,6 @@
 		2FA5D059D2249A3943D77A07 /* BinanceChainTransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DEEA5C3A80D310255459 /* BinanceChainTransactionRecord.swift */; };
 		2FA5D07A61BA501BD07617F2 /* AvailableBalanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DB06251C30FF58B5F4C2 /* AvailableBalanceCell.swift */; };
 		2FA5D095A83D18DE2E21B580 /* EvmTransactionsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DD0A8C1E757651F3CA3B /* EvmTransactionsAdapter.swift */; };
-		2FA5D0A935C8BCC818A40065 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = 2FA5DD0A8C1E757651F3CA3B /* EvmTransactionsAdapter.swift */; };
 		2FA5D0C39052BB3698B95876 /* LogRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D73DA43455B86DF104FE /* LogRecord.swift */; };
 		2FA5D0ED91EF9CA9EC84F34B /* SendHodlerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D62EE034DC3CF2A3FE5D /* SendHodlerRouter.swift */; };
 		2FA5D0F5743677018C56979D /* ExperimentalFeaturesModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D106113680415EF6A168 /* ExperimentalFeaturesModule.swift */; };
@@ -1600,7 +1599,6 @@
 		2FA5D5FCFC8A89956755FAA3 /* TransactionInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D8490F7D8ACA18DC807A /* TransactionInfoViewController.swift */; };
 		2FA5D658257550B444C5B2BE /* TransactionInfoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D522776FF4B8C5AE472F /* TransactionInfoModule.swift */; };
 		2FA5D66E93810DD824638468 /* AvailableBalanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DB06251C30FF58B5F4C2 /* AvailableBalanceCell.swift */; };
-		2FA5D66F002C4A8CB5F0E888 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = 2FA5DD0A8C1E757651F3CA3B /* EvmTransactionsAdapter.swift */; };
 		2FA5D6910A6A3BB23CDA4A9F /* FeeRateAdjustmentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D480CB2AA3B61880F9D2 /* FeeRateAdjustmentInfo.swift */; };
 		2FA5D69CCEEE50BB63C3D317 /* ContractCreationTransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DD13ED115F4177BE09AB /* ContractCreationTransactionRecord.swift */; };
 		2FA5D6AE95126ABEA34CE867 /* LogRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D73DA43455B86DF104FE /* LogRecord.swift */; };
@@ -1610,9 +1608,7 @@
 		2FA5D73715BE820783EEFF24 /* BitcoinCore+Hodler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D33978B54432713B047C /* BitcoinCore+Hodler.swift */; };
 		2FA5D74C17DF76E56FA0A96E /* ExperimentalFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DC1396F20FC90B033146 /* ExperimentalFeaturesViewController.swift */; };
 		2FA5D76023EC85D3589647DC /* CurrencyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D1D073DF0366A0E24A4F /* CurrencyValue.swift */; };
-		2FA5D7A265F818E37C908672 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = 2FA5DD0A8C1E757651F3CA3B /* EvmTransactionsAdapter.swift */; };
 		2FA5D7A5F46AA14B704A0E91 /* BitcoinOutgoingTransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DB4238F9CFEA3A2727F5 /* BitcoinOutgoingTransactionRecord.swift */; };
-		2FA5D7AE481033E5DF87398C /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = 2FA5DD0A8C1E757651F3CA3B /* EvmTransactionsAdapter.swift */; };
 		2FA5D7DA336C8025BB2B9EE2 /* TransactionLockInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D11954688FDC8AEC549C /* TransactionLockInfo.swift */; };
 		2FA5D7DC6E8D68CD487D0825 /* LogRecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D690E78A4568F9FD9554 /* LogRecordManager.swift */; };
 		2FA5D7DD3CEFEE5CD80B337B /* Erc20AvailableBalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D69E0937472AB2B9CA81 /* Erc20AvailableBalanceViewModel.swift */; };
@@ -1631,7 +1627,6 @@
 		2FA5DA0DBBA1904CEF51F5F2 /* ContractCallTransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008CA69267C8E5E00001E0A /* ContractCallTransactionRecord.swift */; };
 		2FA5DA1EA4F381B056AA6BF5 /* ExperimentalFeaturesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DC34FD081A36371936F2 /* ExperimentalFeaturesRouter.swift */; };
 		2FA5DA3D15F168E6E25F4C35 /* TransactionLockInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D11954688FDC8AEC549C /* TransactionLockInfo.swift */; };
-		2FA5DA44D6F7CAEF729555E5 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = 2FA5DD0A8C1E757651F3CA3B /* EvmTransactionsAdapter.swift */; };
 		2FA5DA496EA180A42F716C83 /* SendHodlerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D28E8178D1FB4706011E /* SendHodlerPresenter.swift */; };
 		2FA5DA5C9188AA17B01953E7 /* SelectableValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DE415A04A29B90C59105 /* SelectableValueView.swift */; };
 		2FA5DA8B816A4B089A4F01AF /* BitcoinOutgoingTransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DB4238F9CFEA3A2727F5 /* BitcoinOutgoingTransactionRecord.swift */; };
@@ -1662,7 +1657,6 @@
 		2FA5DD621ABED0867ABBA8D4 /* ExperimentalFeaturesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DEDE33019B5FEA33994A /* ExperimentalFeaturesPresenter.swift */; };
 		2FA5DD8CA454D10CB81000F8 /* BitcoinOutgoingTransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DB4238F9CFEA3A2727F5 /* BitcoinOutgoingTransactionRecord.swift */; };
 		2FA5DDA1D6BCD69D9A1E00A6 /* TransactionInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D657FD86FE9B675B475D /* TransactionInfoViewModel.swift */; };
-		2FA5DDA94D927468DE3033E8 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = 2FA5DD0A8C1E757651F3CA3B /* EvmTransactionsAdapter.swift */; };
 		2FA5DDDD98533BAFCF3819C8 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D6E7A21AAD357C6D8EEA /* TimeInterval.swift */; };
 		2FA5DDEE04ABB6526A0BFB5C /* FeeRateAdjustmentHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5D0D01268B444930AC3F2 /* FeeRateAdjustmentHelper.swift */; };
 		2FA5DE171376C8076F4935B1 /* BitcoinIncomingTransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5DE3FC4EA4B42BC982C9A /* BitcoinIncomingTransactionRecord.swift */; };
@@ -3027,7 +3021,6 @@
 		1A56425A421C1C9FB383DCDA /* TransactionRecordDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionRecordDataSource.swift; sourceTree = "<group>"; };
 		1A564293D88587642800717B /* FilterHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterHeaderCell.swift; sourceTree = "<group>"; };
 		1A5642E9B9E5592E04373C16 /* ButtonState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonState.swift; sourceTree = "<group>"; };
-		1A56433D5D39CCA995F97777 /* Development.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		1A564342B778B822F3ED02E7 /* WalletConnectSignMessageRequestModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletConnectSignMessageRequestModule.swift; sourceTree = "<group>"; };
 		1A564370A637B30D34776F2A /* Production.template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = file.template; path = Production.template.xcconfig; sourceTree = "<group>"; };
 		1A5643953F416DA3DA5DFBC3 /* FeeRatePriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeeRatePriority.swift; sourceTree = "<group>"; };
@@ -3083,7 +3076,6 @@
 		1A56489DE231CDDCA75CAEB3 /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		1A5648DA32EA5FC27E4CEF64 /* DepositService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositService.swift; sourceTree = "<group>"; };
 		1A5648F319DD6F10DDA8C617 /* TransactionDataSortModeSettingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDataSortModeSettingManager.swift; sourceTree = "<group>"; };
-		1A5648F3AB070B0ACB98C7EE /* Production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		1A5648F4CBE5575C4D6C40BA /* TransactionDiffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDiffer.swift; sourceTree = "<group>"; };
 		1A564920282E84A6E7EE05EB /* SendEthereumErrorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendEthereumErrorCell.swift; sourceTree = "<group>"; };
 		1A56492CDFAC522E46E07AD0 /* BlockchainSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockchainSetting.swift; sourceTree = "<group>"; };
@@ -3459,7 +3451,7 @@
 		D34E941C21F86C3500AD8E90 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D35B518821942E7A00504FBA /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		D38405CE218317DF007D50AD /* Unstoppable D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unstoppable D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D38406BE21831B3D007D50AD /* Unstoppable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unstoppable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38406BE21831B3D007D50AD /* StarBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38406C3218327B1007D50AD /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 		D38406C621832862007D50AD /* AppIconDevT.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIconDevT.xcassets; sourceTree = "<group>"; };
 		D38406C821832968007D50AD /* AppIconDev.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIconDev.xcassets; sourceTree = "<group>"; };
@@ -5021,8 +5013,6 @@
 				5026FFF921C3CA280023EEA2 /* Unstoppable.debug.xcconfig */,
 				1A564370A637B30D34776F2A /* Production.template.xcconfig */,
 				1A5641679DC88BE355F0F3A0 /* Development.template.xcconfig */,
-				1A5648F3AB070B0ACB98C7EE /* Production.xcconfig */,
-				1A56433D5D39CCA995F97777 /* Development.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -5757,7 +5747,7 @@
 				D3285F4220BD158E00644076 /* Unstoppable DT.app */,
 				D3373DBF20C658660082BC4A /* Unstoppable Tests.xctest */,
 				D38405CE218317DF007D50AD /* Unstoppable D.app */,
-				D38406BE21831B3D007D50AD /* Unstoppable.app */,
+				D38406BE21831B3D007D50AD /* StarBase.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -5869,9 +5859,9 @@
 			productReference = D38405CE218317DF007D50AD /* Unstoppable D.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D38405D021831B3D007D50AD /* Unstoppable */ = {
+		D38405D021831B3D007D50AD /* StarBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D38406BB21831B3D007D50AD /* Build configuration list for PBXNativeTarget "Unstoppable" */;
+			buildConfigurationList = D38406BB21831B3D007D50AD /* Build configuration list for PBXNativeTarget "StarBase" */;
 			buildPhases = (
 				8519E54196D54FF741A80E06 /* [CP] Check Pods Manifest.lock */,
 				D38405D221831B3D007D50AD /* Sources */,
@@ -5884,9 +5874,9 @@
 			);
 			dependencies = (
 			);
-			name = Unstoppable;
+			name = StarBase;
 			productName = Wallet;
-			productReference = D38406BE21831B3D007D50AD /* Unstoppable.app */;
+			productReference = D38406BE21831B3D007D50AD /* StarBase.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -5917,7 +5907,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D3285F3D20BD158E00644076 /* Build configuration list for PBXProject "UnstoppableWallet" */;
+			buildConfigurationList = D3285F3D20BD158E00644076 /* Build configuration list for PBXProject "StarBase" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -5937,7 +5927,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D38405D021831B3D007D50AD /* Unstoppable */,
+				D38405D021831B3D007D50AD /* StarBase */,
 				D38404E1218317DF007D50AD /* Unstoppable Dev */,
 				D3285F4120BD158E00644076 /* Unstoppable Dev T */,
 				D3373DBE20C658660082BC4A /* Unstoppable Tests */,
@@ -9046,7 +9036,7 @@
 				OfficeMode = false;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.horizontalsystems.bank-wallet";
 				PRODUCT_MODULE_NAME = Unstoppable;
-				PRODUCT_NAME = Unstoppable;
+				PRODUCT_NAME = StarBase;
 				PROVISIONING_PROFILE_SPECIFIER = "io.horizontalsystems.bank-wallet Dev";
 				ZCASH_NETWORK_ENVIRONMENT = MAINNET;
 			};
@@ -9060,7 +9050,7 @@
 				OfficeMode = false;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.horizontalsystems.bank-wallet";
 				PRODUCT_MODULE_NAME = Unstoppable;
-				PRODUCT_NAME = Unstoppable;
+				PRODUCT_NAME = StarBase;
 				PROVISIONING_PROFILE_SPECIFIER = "io.horizontalsystems.bank-wallet AppStore";
 				ZCASH_NETWORK_ENVIRONMENT = MAINNET;
 			};
@@ -9069,7 +9059,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3285F3D20BD158E00644076 /* Build configuration list for PBXProject "UnstoppableWallet" */ = {
+		D3285F3D20BD158E00644076 /* Build configuration list for PBXProject "StarBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3285F5220BD158F00644076 /* Debug */,
@@ -9105,7 +9095,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D38406BB21831B3D007D50AD /* Build configuration list for PBXNativeTarget "Unstoppable" */ = {
+		D38406BB21831B3D007D50AD /* Build configuration list for PBXNativeTarget "StarBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D38406BC21831B3D007D50AD /* Debug */,

@@ -13,7 +13,7 @@ struct WalletConnectSendEthereumTransactionRequestModule {
 
         switch evmKit.networkType {
         case .ethMainNet, .ropsten, .rinkeby, .kovan, .goerli: feeCoin = App.shared.coinKit.coin(type: .ethereum)
-        case .bscMainNet: feeCoin = App.shared.coinKit.coin(type: .binanceSmartChain)
+        case .bscMainNet , .bnbtestnet: feeCoin = App.shared.coinKit.coin(type: .binanceSmartChain)
         }
 
         guard let coin = feeCoin, let feeRateProvider = App.shared.feeRateProviderFactory.provider(coinType: coin.type) else {

@@ -1,2 +1,2 @@
 #include "../Pods/Target Support Files/Pods-Unstoppable Dev/Pods-Unstoppable Dev.release.xcconfig"
-#include "Development.xcconfig"
+#include "Development.template.xcconfig"

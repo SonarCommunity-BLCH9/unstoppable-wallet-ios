@@ -19,7 +19,7 @@ class AddEvmTokenBlockchainService {
     private var apiUrl: String {
         switch networkType {
         case .ethMainNet: return "https://api.etherscan.io"
-        case .bscMainNet: return "https://api.bscscan.com"
+        case .bscMainNet, .bnbtestnet: return "https://api.bscscan.com"
         case .ropsten: return "https://api-ropsten.etherscan.io"
         case .rinkeby: return "https://api-rinkeby.etherscan.io"
         case .kovan: return "https://api-kovan.etherscan.io"
@@ -30,14 +30,14 @@ class AddEvmTokenBlockchainService {
     var explorerKey: String {
         switch networkType {
         case .ethMainNet, .ropsten, .rinkeby, .kovan, .goerli: return appConfigProvider.etherscanKey
-        case .bscMainNet: return appConfigProvider.bscscanKey
+        case .bscMainNet , .bnbtestnet: return appConfigProvider.bscscanKey
         }
     }
 
     func coinType(address: String) -> CoinType {
         switch networkType {
         case .ethMainNet, .ropsten, .rinkeby, .kovan, .goerli: return .erc20(address: address)
-        case .bscMainNet: return .bep20(address: address)
+        case .bscMainNet , .bnbtestnet: return .bep20(address: address)
         }
     }
 

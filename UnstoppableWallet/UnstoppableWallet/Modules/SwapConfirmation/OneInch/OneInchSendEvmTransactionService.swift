@@ -170,12 +170,12 @@ class OneInchSendEvmTransactionService {
         case .evmCoin:
             switch evmKit.networkType {
             case .ethMainNet, .ropsten, .rinkeby, .kovan, .goerli: coinType = .ethereum
-            case .bscMainNet: coinType = .binanceSmartChain
+            case .bscMainNet , .bnbtestnet: coinType = .binanceSmartChain
             }
         case .eip20Coin(let address):
             switch evmKit.networkType {
             case .ethMainNet, .ropsten, .rinkeby, .kovan, .goerli: coinType = .erc20(address: address.hex)
-            case .bscMainNet: coinType = .bep20(address: address.hex)
+            case .bscMainNet , .bnbtestnet: coinType = .bep20(address: address.hex)
             }
         }
 

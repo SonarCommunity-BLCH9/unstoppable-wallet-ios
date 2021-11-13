@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:UnstoppableWallet/UnstoppableWallet.xcodeproj">
+      location = "group:/Users/chetu/Documents/Starship/unstoppable-wallet-ios/UnstoppableWallet/StarBase.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

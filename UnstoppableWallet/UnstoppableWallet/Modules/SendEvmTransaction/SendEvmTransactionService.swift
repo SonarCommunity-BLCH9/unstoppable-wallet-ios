@@ -145,14 +145,14 @@ class SendEvmTransactionService {
     private func eip20CoinType(contractAddress: String) -> CoinType {
         switch evmKit.networkType {
             case .ethMainNet, .ropsten, .rinkeby, .kovan, .goerli: return .erc20(address: contractAddress)
-            case .bscMainNet: return .bep20(address: contractAddress)
+            case .bscMainNet , .bnbtestnet: return .bep20(address: contractAddress)
         }
     }
 
     private func evmCoinType() -> CoinType {
         switch evmKit.networkType {
         case .ethMainNet, .ropsten, .rinkeby, .kovan, .goerli: return .ethereum
-        case .bscMainNet: return .binanceSmartChain
+        case .bscMainNet , .bnbtestnet: return .binanceSmartChain
         }
     }
 

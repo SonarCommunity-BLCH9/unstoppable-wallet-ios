@@ -13,6 +13,8 @@ class EvmNetworkManager {
             return Kit.infuraHttpSyncSource(networkType: networkType, projectId: appConfigProvider.infuraCredentials.id, projectSecret: appConfigProvider.infuraCredentials.secret)
         case .bscMainNet:
             return Kit.defaultBscHttpSyncSource()
+        case .bnbtestnet:
+            return Kit.defaultBscHttpSyncSource()
         }
     }
 
@@ -20,8 +22,16 @@ class EvmNetworkManager {
         switch networkType {
         case .ethMainNet, .ropsten, .rinkeby, .kovan, .goerli:
             return Kit.infuraWebsocketSyncSource(networkType: networkType, projectId: appConfigProvider.infuraCredentials.id, projectSecret: appConfigProvider.infuraCredentials.secret)
+            
         case .bscMainNet:
             return Kit.defaultBscWebsocketSyncSource()
+            
+        case .bnbtestnet:
+            return Kit.defaultBscWebsocketSyncSource()
+//           // change
+        
+           
+        
         }
     }
 
@@ -63,7 +73,8 @@ extension EvmNetworkManager {
     var binanceSmartChainNetworks: [EvmNetwork] {
         let networks: [EvmNetwork?] = [
             defaultHttpNetwork(name: "MainNet HTTP", networkType: .bscMainNet),
-            defaultWebsocketNetwork(name: "MainNet Websocket", networkType: .bscMainNet)
+            defaultWebsocketNetwork(name: "MainNet Websocket", networkType: .bscMainNet),
+            defaultHttpNetwork(name: "Testnet HTTP", networkType: .bnbtestnet)
         ]
 
         // todo: load custom network from DB
